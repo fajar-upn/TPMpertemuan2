@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Perkalian">
+
+    <EditText
+        android:id="@+id/et_bilangan_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="17dp"
+        android:hint="0.0"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textAlignment="center"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="20sp"/>
+
+    <EditText
+        android:id="@+id/et_bilangan_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="17dp"
+        android:hint="0.0"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textAlignment="center"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btn_kalikan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Kali"
+        android:textAllCaps="false"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"/>
+
+    <TextView
+        android:id="@+id/tv_hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="0.0"
+        android:textAlignment="center"
+        android:textSize="30sp"/>
+
+</LinearLayout>
